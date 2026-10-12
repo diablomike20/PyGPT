@@ -118,6 +118,7 @@ You can add your own models. See the section ``Extending PyGPT / Adding a new mo
 There is built-in support for those LLM providers:
 
 * ``Anthropic``
+* ``Atlas Cloud``
 * ``Azure OpenAI`` (native SDK)
 * ``Deepseek API``
 * ``Eden AI``

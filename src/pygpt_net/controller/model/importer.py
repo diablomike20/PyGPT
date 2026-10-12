@@ -486,6 +486,7 @@ class Importer:
                             "x_ai",
                             "forge",
                             "edenai",
+                            "atlas_cloud",
                         }
                         and "tool_calls" not in model
                     )

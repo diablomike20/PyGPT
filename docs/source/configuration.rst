@@ -152,6 +152,13 @@ Eden AI
 
 * ``API Endpoint``: Sets the Eden AI base URL used for requests. Change it only when your deployment requires another compatible endpoint. Default: ``https://api.edenai.run/v3``.
 
+Atlas Cloud
+^^^^^^^^^^^
+
+* ``Atlas Cloud API key``: Supplies the credential used to authenticate requests to the Atlas Cloud OpenAI-compatible endpoint. It is used for models assigned to the Atlas Cloud provider. The ``ATLASCLOUD_API_KEY`` environment variable is also accepted.
+
+* ``API Endpoint``: Sets the Atlas Cloud base URL used by PyGPT. Default: ``https://api.atlascloud.ai/v1``. The ``ATLASCLOUD_API_BASE`` environment variable is also accepted.
+
 Jev
 ^^^
 
